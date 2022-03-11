@@ -1,0 +1,17 @@
+.idea/
+node_modules/
+dist/
+build/
+tmp/
+temp/
+
+.env
+
+# logs
+yarn-error.log
+log/access.log
+
+# cache
+.cache/
+.eslintcache
+

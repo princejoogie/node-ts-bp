@@ -1,15 +1,18 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Node 14",
-
+  "display": "Node 16",
   "compilerOptions": {
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "lib": ["es2020", "dom"],
+    "lib": ["es2021"],
     "module": "commonjs",
-    "outDir": "./dist",
-    "skipLibCheck": true,
+    "target": "es2021",
     "strict": true,
-    "target": "es2020"
-  }
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "noUncheckedIndexedAccess": true,
+    "useUnknownInCatchVariables": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }

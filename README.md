@@ -1,6 +1,6 @@
 # node-ts-bp
 
-Boilerplate for creating Node applications with TypeScript
+Node.js Typescript Boilerplate
 
 ## Scripts
 

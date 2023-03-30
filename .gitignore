@@ -10,6 +10,7 @@ temp/
 # logs
 yarn-error.log
 log/access.log
+pnpm-debug.log
 
 # cache
 .cache/

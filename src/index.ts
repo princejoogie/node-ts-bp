@@ -1,7 +1,5 @@
-/* eslint-disable no-console */
-
 const main = () => {
-  console.log("Hello Prince");
+  console.log("Hello from index.t!");
 };
 
 main();
